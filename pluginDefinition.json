@@ -1,0 +1,33 @@
+{
+  "identifier": "sessionIssueTest",
+  "apiVersion": "0.7.0",
+  "pluginVersion": "0.7.0",
+  "pluginType": "application",
+  "webContent": {
+    "framework": "iframe",
+    "launchDefinition": {
+      "pluginShortNameKey": "sessionIssueTest",
+      "pluginShortNameDefault": "Session Issue Test"
+    },
+    "startingPage": "index.html",
+    "isSingleWindowApp": true,
+    "defaultWindowStyle": {
+      "width": 950,
+      "height": 550,
+      "x": 200,
+      "y": 50
+    }
+  },
+  "dataServices": [
+    {
+      "type": "router",
+      "name": "sessionIssueBackend",
+      "serviceLookupMethod": "external",
+      "fileName": "sessionIssueBackend.js",
+      "routerFactory": "sessionIssueBackendRouter",
+      "dependenciesIncluded": true,
+      "methods": ["GET", "POST"],
+      "version": "1.0.0"
+    }
+  ]
+}

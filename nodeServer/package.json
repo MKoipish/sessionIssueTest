@@ -1,0 +1,14 @@
+{
+  "name": "session-issue-backend",
+  "version": "1.0.0",
+  "description": "Session issue backend",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@types/express": "~4.16.0",
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
+  }
+}
